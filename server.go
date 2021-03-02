@@ -2,7 +2,7 @@ package main
 
 import(
 	"github.com/google/uuid"
-	"github.com/gorillla/mux"
+	"github.com/gorilla/mux"
 )
 type User struct {
 	ID uuid.UUID `json:"id"`
